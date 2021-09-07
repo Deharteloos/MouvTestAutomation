@@ -23,7 +23,6 @@ Feature: Minor bugs
     Given Go to the homepage
     When Scroll down to the footer
     Then The copyright should be updated to the current year
-    But Mouv's copyright is dated 2018
 
   @bug_968
   Scenario: Wrong redirection

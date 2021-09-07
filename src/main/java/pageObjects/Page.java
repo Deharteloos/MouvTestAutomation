@@ -187,4 +187,8 @@ public class Page {
         }
     }
 
+    public void navigateTo(String link) {
+        get(config.getEnvironment() + link);
+    }
+
 }
