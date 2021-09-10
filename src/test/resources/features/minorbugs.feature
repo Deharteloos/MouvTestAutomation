@@ -10,7 +10,6 @@ Feature: Minor bugs
     When  Click on the antenna symbol of one program
     And   Click on the antenna symbol of another program
     Then  The drop-down menu for the first program should disappear
-    But   The drop-down menus remain opened on all selected programs
 
   @recommandation_972
   Scenario: Missing content
