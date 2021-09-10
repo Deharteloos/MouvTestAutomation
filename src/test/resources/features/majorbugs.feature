@@ -3,14 +3,6 @@
 @severity=critical
 Feature: Major bugs
 
-  @bug_969
-  Scenario: Automatic value change
-    Given  Go to the page "/c-etait-quoi-ce-titre"
-    When   Select a date except today
-    And    Select the time
-    Then   No change of value in the date field
-    But    Change of the value displayed in the date field to "Aujourd'hui"
-
   @bug_980
   Scenario: Host problem
     Given  Go to the page "/emissions/dress-code-street/vaccine-ready-la-tendance-qui-booste-la-mode-de-l-asymetrique"
