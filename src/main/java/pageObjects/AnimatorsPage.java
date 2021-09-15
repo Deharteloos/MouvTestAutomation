@@ -17,7 +17,7 @@ public class AnimatorsPage extends Page {
 
     public void clickOnAhmed() {
         scrollToElement(ahmed);
-        clickOn(ahmed);
+        get(ahmed.getAttribute("href"));
     }
 
 }
