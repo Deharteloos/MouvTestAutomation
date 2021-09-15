@@ -10,7 +10,7 @@ import io.cucumber.testng.CucumberOptions;
                 "junit:target/reports/xmlreport.xml",
                 "io.qameta.allure.cucumber6jvm.AllureCucumber6Jvm"
         },
-        features = {"src/test/resources/features"},
+        features = {"src/test/resources/features/majorbugs.feature"},
         glue = {"steps", "pageObjects"}
 )
 public class TestRunner extends BaseRunner {
