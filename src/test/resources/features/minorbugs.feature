@@ -11,12 +11,6 @@ Feature: Minor bugs
     And   Click on the antenna symbol of another program
     Then  The drop-down menu for the first program should disappear
 
-  @recommandation_972
-  Scenario: Missing content
-    Given  Go to the page "/animateurs"
-    When   Click on "Ahmed"
-    Then   No content in the section "Dernières News"
-
   @recommandation_966
   Scenario: Update the copyright
     Given Go to the homepage
