@@ -3,7 +3,7 @@
 @severity=minor
 Feature: Minor bugs
     
-  @recommandation_977
+  @recommandation_977 @OF-471
   Scenario: Remaining menu
     Given Go to the homepage
     And   Scroll down to the footer and click on "Grille des programmes"
